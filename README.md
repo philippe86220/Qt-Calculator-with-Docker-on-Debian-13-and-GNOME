@@ -234,7 +234,5 @@ The `calc` script completes the workflow by making the container easy to use: on
 
 ## Acknowledgements
 
-## Acknowledgements
-
 The documentation was written, reviewed, and technically refined with the assistance of ChatGPT by OpenAI. The final content was checked and approved by the project author.
 
