@@ -60,7 +60,7 @@ In this script, it provides a useful first level of protection against continuin
 
 ---
 
-**Line 3**
+**Line 4**
 
 ```bash
 xhost +local:docker
@@ -84,7 +84,7 @@ On the tested Debian 13 GNOME system, this permission applies to the XWayland co
 
 ---
 
-**Line 4**
+**Line 5**
 
 ```bash
 docker compose --project-directory /home/philippe86220/Documents/docker/calculatrice up -d --build
@@ -147,7 +147,7 @@ When only `calculator.py` has changed, for example, Docker can normally reuse th
 
 ---
 
-**Line 5**
+**Line 8**
 
 ```bash
 (
@@ -163,7 +163,7 @@ The complete subshell is sent to the background by the `&` operator on line 11. 
 
 ---
 
-**Line 6**
+**Line 9**
 
 ```bash
   container_id=$(docker compose --project-directory /home/philippe86220/Documents/docker/calculatrice ps -q calculator)
@@ -207,7 +207,7 @@ The following lines assume that the `calculator` service was started successfull
 
 ---
 
-**Line 7**
+**Line 10**
 
 ```bash
   docker wait "$container_id" > /dev/null
@@ -249,7 +249,7 @@ Because the script does not need to display the container’s exit code, redirec
 
 ---
 
-**Line 8**
+**Line 11**
 
 ```bash
   xhost -local:docker > /dev/null 2>&1
@@ -292,7 +292,7 @@ The authorization removed by this command belongs to the X server’s local conn
 
 ---
 
-**Line 9**
+**Line 12**
 
 ```bash
 ) & disown
@@ -324,7 +324,7 @@ Because the watcher does not need terminal input and its command output is redir
 
 ---
 
-**Line 10**
+**Line 14**
 
 ```bash
 echo "Calculatrice lancée."
