@@ -219,3 +219,10 @@ This project demonstrates how three distinct layers work together:
 On the tested Debian 13 GNOME system, the container uses the X11 protocol and XWayland displays the resulting window within the Wayland desktop session.
 
 The `calc` script completes the workflow by making the container easy to use: one command starts the application, and simply closing the calculator window stops the container and automatically revokes the temporary X11 authorization.
+
+---
+
+## Acknowledgements
+
+The English documentation was translated, reviewed, and technically refined with the assistance of ChatGPT by OpenAI. The final content was checked and approved by the project author.
+
