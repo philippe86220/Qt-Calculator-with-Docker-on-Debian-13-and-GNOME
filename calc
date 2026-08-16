@@ -1,0 +1,16 @@
+#!/bin/bash
+set -e
+
+xhost +local:docker
+docker compose --project-directory /home/philippe86220/Documents/docker/calculatrice up -d --build
+
+# Attend en arrière-plan la fermeture du conteneur, puis révoque xhost
+(
+  container_id=$(docker compose --project-directory /home/philippe86220/Documents/docker/calculatrice ps -q calculator)
+  docker wait "$container_id" > /dev/null
+  xhost -local:docker > /dev/null 2>&1
+) & disown
+
+echo "Calculatrice lancée."
+
+
