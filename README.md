@@ -1,3 +1,13 @@
+# Qt Calculator with Docker on Debian 13 and GNOME
+
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PySide6](https://img.shields.io/badge/PySide6-Qt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Debian](https://img.shields.io/badge/Debian-13-A81D33?style=for-the-badge&logo=debian&logoColor=white)
+![GNOME](https://img.shields.io/badge/Desktop-GNOME-4A86CF?style=for-the-badge&logo=gnome&logoColor=white)
+![Wayland](https://img.shields.io/badge/Display-Wayland-FFBC00?style=for-the-badge&logo=wayland&logoColor=black)
+![X11](https://img.shields.io/badge/Protocol-X11-F28834?style=for-the-badge&logo=xdotorg&logoColor=white)
+
 # Qt Calculator with Docker on Debian 13 and GNOME — Project Overview
 
 This document provides an overview of the project and explains how its files work together to run a Qt graphical application inside a Docker container and display it on the Debian host desktop.
