@@ -8,7 +8,7 @@
 ![Wayland](https://img.shields.io/badge/Display-Wayland-FFBC00?style=for-the-badge&logo=wayland&logoColor=black)
 ![X11](https://img.shields.io/badge/Protocol-X11-F28834?style=for-the-badge&logo=xdotorg&logoColor=white)
 
-# Qt Calculator with Docker on Debian 13 and GNOME — Project Overview
+# Project Overview
 
 This document provides an overview of the project and explains how its files work together to run a Qt graphical application inside a Docker container and display it on the Debian host desktop.
 
