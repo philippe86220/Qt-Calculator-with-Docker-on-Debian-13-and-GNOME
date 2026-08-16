@@ -4,10 +4,10 @@ This document provides an overview of the project and explains how its files wor
 
 For a detailed, line-by-line explanation of each file, see the dedicated documentation:
 
-* `README_calculator.md` → `app/calculator.py`
-* `README-Dockerfile.md` → `Dockerfile`
-* `README-docker-compose.md` → `docker-compose.yml`
-* `README-calc.md` → `calc` script
+- [`README_calculator.md`](README_calculator.md) → `app/calculator.py`
+- [`README-Dockerfile.md`](README-Dockerfile.md) → `Dockerfile`
+- [`README-docker-compose.md`](README-docker-compose.md) → `docker-compose.yml`
+- [`README-calc.md`](README-calc.md) → `calc` script
 
 ---
 
