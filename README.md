@@ -18,6 +18,7 @@ For a detailed, line-by-line explanation of each file, see the dedicated documen
 - [`README-Dockerfile.md`](README-Dockerfile.md) → `Dockerfile`
 - [`README-docker-compose.md`](README-docker-compose.md) → `docker-compose.yml`
 - [`README-calc.md`](README-calc.md) → `calc` script
+- [`README-DISPLAY.md`](README-DISPLAY.md) → `DISPLAY`, X11/XWayland, socket access and authorization
 
 ---
 
